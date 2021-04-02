@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  margin: 100px auto;
+  padding: 10px;
+  width: 500px;
+  border: 1px solid black;
 }
 
 .App-logo {
@@ -35,4 +38,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.result-text {
+  text-align: right;
+  min-height: 100px;
+  margin: 2px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+.button {
+  text-align: center;
+  cursor: pointer;
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid black;
+  margin: 2px;
+  padding: 2px;
 }
